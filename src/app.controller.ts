@@ -22,9 +22,9 @@ export class AppController {
       author: {
         name: 'Ameisenfutter',
         website: 'https://www.spuxx.dev',
-        github: 'https://www.github.com/spuxx1701',
+        github: 'https://www.github.com/spuxx-dev',
       },
-      github: 'https://www.github.com/spuxx1701/potber-api',
+      github: 'https://www.github.com/spuxx-dev/potber-api',
       client: process.env.APP_CLIENT_URL,
       documentation: `${process.env.APP_API_URL}${swaggerUri}`,
       documentationJson: `${process.env.APP_API_URL}${swaggerUri}-json`,

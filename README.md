@@ -2,13 +2,13 @@
 <img src="./.logo/440x196_round.png" alt="potber logo" height="200" />
 </p>
 <p align="center">
-A RESTful API for the german board <a href="https://forum.mods.de" target="_blank">forum.mods.de</a> built with <a href="https://github.com/nestjs/nest" target="_blank">Nest</a>. The API is a modern JSON API that comes with full OpenAPI documentation and follows REST meticulously. If you're looking for potber-client, you can find it <a href="https://github.com/spuxx1701/potber-client" target="_blank">here</a>.
+A RESTful API for the german board <a href="https://forum.mods.de" target="_blank">forum.mods.de</a> built with <a href="https://github.com/nestjs/nest" target="_blank">Nest</a>. The API is a modern JSON API that comes with full OpenAPI documentation and follows REST meticulously. If you're looking for potber-client, you can find it <a href="https://github.com/spuxx-dev/potber-client" target="_blank">here</a>.
 </p>
 
-![Production Builds](https://github.com/spuxx1701/potber-api/actions/workflows/production.yml/badge.svg)
-![Staging Builds](https://github.com/spuxx1701/potber-api/actions/workflows/staging.yml/badge.svg)
-![Latest Release](https://img.shields.io/github/v/release/spuxx1701/potber-api)
-![License](https://img.shields.io/github/license/spuxx1701/potber-api)
+![Production Builds](https://github.com/spuxx-dev/potber-api/actions/workflows/production.yml/badge.svg)
+![Staging Builds](https://github.com/spuxx-dev/potber-api/actions/workflows/staging.yml/badge.svg)
+![Latest Release](https://img.shields.io/github/v/release/spuxx-dev/potber-api)
+![License](https://img.shields.io/github/license/spuxx-dev/potber-api)
 
 ## How to use the API
 
@@ -19,7 +19,7 @@ You can find the OpenAPI documentation here:
 
 ### CORS
 
-Even though the API was built primarily for serving [potber-client](https://github.com/spuxx1701/potber-client), it was designed with the ability of serving other usescases in mind. If you need your application's hostname added to the API's allowed origins, feel free to contact me. This is only required for browser-based consumers like websites. If you're building a server or a native application, you can start using `potber-api` right away!
+Even though the API was built primarily for serving [potber-client](https://github.com/spuxx-dev/potber-client), it was designed with the ability of serving other usescases in mind. If you need your application's hostname added to the API's allowed origins, feel free to contact me. This is only required for browser-based consumers like websites. If you're building a server or a native application, you can start using `potber-api` right away!
 
 ### Authentication & authorization
 
@@ -43,7 +43,7 @@ To properly create and maintain a session, follow these steps:
 ### Installation
 
 ```bash
-$ git clone https://github.com/spuxx1701/potber-api.git
+$ git clone https://github.com/spuxx-dev/potber-api.git
 $ cd potber-api
 $ npm install
 ```
